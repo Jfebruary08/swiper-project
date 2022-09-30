@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney+ Alphastar</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+
+   <script src="app.js"></script>
+
+
+
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <style>
+    html,
+  body {
+    position: relative;
+    height: 200%;
+  }
+  body {
+               background: #ee;
+               font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+               font-size: 14px;
+               color: #000;
+               margin: 0;
+               padding: 0;
+             }
+
+
+
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <img src="images/logo.png" class="brand-logo" alt="">
+        <ul class="nav-links">
+            <li class="nav-items"><a href="#">TV</a></li>
+            <li class="nav-items"><a href="#">movies</a></li>
+            <li class="nav-items"><a href="#">sports</a></li>
+            <li class="nav-items"><a href="#">premium</a></li>
+
+        </ul>
+
+        <div class="right-container">
+            <input type="text" class="search-box" placeholder="search">
+            <button class="sub-btn">SUBSCRIBE</button>
+            <a href="#" class="login-link">log in</a>
+
+        </div>
+
+    </nav>
+     <!--<div class="carousel-container">
+        <div class="carousel">
+            <div class="slider">
+                <div class="slide-content">
+                    <h1 class="movie-title">loki</h1>
+                    <p class="movie-des">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Suscipit saepe eius ratione nostrum mollitia
+                        explicado quae nam pariatur. Sint, obit? </p>
+
+                </div>
+                <img src="images/slider 1.PNG" alt="">
+
+            </div>
+
+        </div>
+
+    </div>
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <div class="swiper mySwiper">
+       <div class="swiper-wrapper">
+         <div class="swiper-slide"><p class="para1">Liger - Saala Crossbreed </p>
+                                  <p class="para2">Hostar Specials</p>
+                                  <p class="para3">A brave-hearted Liger works his way up to <br> find his dream spot in the MMA world. But, <br> his life gets  complicated when he crosses <br> paths with Taniya.</p>
+           <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/6409/1356409-h-761f1295f69a" alt=""style=""></div>
+         <div class="swiper-slide"><p class="para1">India Seal Series in Style</p>
+             <p class="para2">Hostar Specials</p>
+             <p class="para3">Virat Kohli and Suryakumar Yadav's formidable <br> 104-run partnership sealed the series for India <br> against Australia in the third Mastercard T20I</p>
+             <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/9110/1359110-h-ae963f7ecd65" alt=""></div>
+         <div class="swiper-slide"><p class="para1">Shoorveer</p>
+             <p class="para2">Hostar Specials</p>
+             <p class="para3">When an imminent attack threatens India, an elite unit - <br> the Hawks - undertake a mission that will test the <br> limits of their courage and grit.</p>
+             <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/5122/1305122-h-f4e1d154249a" alt=""></div>
+         <div class="swiper-slide"><p class="para1">Laali</p>
+             <p class="para2">Hostar Specials</p>
+             <p class="para3">A lonely laundryman from the suburbs of Kolkata finds <br> companionship in an unclaimed red dress, which <br> triggers esoteric memories from the past.</p>
+             <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/24/1280024-h-aa8dc3cc21b6" alt=""></div>
+         <div class="swiper-slide"><p class="para1">Dahan: Raakan Ka Rahasya</p>
+             <p class="para2">Hostar Specials</p>
+             <p class="para3">A disgraced IAS officer sets out to vindicate herself <br> and takes up a strange case in Shilaspura, a land with <br> occult practices. </p>
+             <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/1298/1351298-h-66706310312e" alt=""></div>
+
+       <div class="swiper-button-next"></div>
+       <div class="swiper-button-prev"></div>
+       <div class="swiper-pagination"></div>
+     </div>
+
+     <!-- Swiper JS -->
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+     <!-- Initialize Swiper -->
+     <script>
+       var swiper = new Swiper(".mySwiper", {
+         spaceBetween: 30,
+         centeredSlides: true,
+         autoplay: {
+           delay: 4500,
+           disableOnInteraction: false,
+         },
+         pagination: {
+
+           clickable: true,
+         },
+         navigation: {
+           nextEl: ".swiper-button-next",
+           prevEl: ".swiper-button-prev",
+         },
+       });
+     </script>
+
+     <div class="Movies"></div>
+     <script src="main.js"></script>
+
+
+
+
+</body>
+
+</html>
